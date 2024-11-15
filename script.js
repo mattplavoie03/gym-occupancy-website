@@ -74,7 +74,7 @@ async function updateCount() {
 // Initial fetch
 updateCount();
 
-// Update the count every 60 seconds 
-setInterval(updateCount, 60000);
+// Update the count every 30 minutes (1,800,000 milliseconds)
+setInterval(updateCount, 1800000);
 
 
